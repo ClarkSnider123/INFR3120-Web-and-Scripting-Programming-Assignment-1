@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background: linear-gradient(to bottom, red 0%, yellow 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#wrapper
+{
+    width: 960px;
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: brown;
+}
