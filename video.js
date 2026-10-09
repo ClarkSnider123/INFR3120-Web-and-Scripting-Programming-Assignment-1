@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var myVideo=document.getElementById("video");
     function playpause()
     {
@@ -6,7 +5,7 @@ var myVideo=document.getElementById("video");
         else myVideo.pause();
     }
 
-=======
+
 var myVideo=document.getElementById("video");
     function playpause()
     {
@@ -14,4 +13,3 @@ var myVideo=document.getElementById("video");
         else myVideo.pause();
     }
 
->>>>>>> e9f6eed (update files)
