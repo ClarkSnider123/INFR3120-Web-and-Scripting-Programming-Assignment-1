@@ -12,12 +12,14 @@
             <div id = "banner">
                 <h1 style="text-align: center;">Contact Me</h1>
             </div>
-            <form>
+            <form class="contactForm" action="homePage.html">
                 <label for= "name">Name:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for= "name">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <input type="checkbox" id="robotTest" name="robotTest" value="robot">
+                <input type="text" id="name" name="name" required><br>
+                <label for= "email">Email:</label><br>
+                <input type="text" id="email" name="email" required><br>
+                <label for= "message">Message:</label><br>
+                <textarea type="text" id="message" name="message" rows="8" cols="50" required></textarea><br> 
+                <input type="checkbox" id="robotTest" name="robotTest" value="robot" required>
                 <label for="robotTest">I am not a robot</label><br>
                 <input type="submit" value="Submit">
             </form>
@@ -25,7 +27,7 @@
             <a href = "homePage.html"><button class="button button1">Back</button></a>
             <div class="clear"></div>
             <div id="footer">
-                <h5>2026 by Clark Snider</h5>
+                <h5>Copyright 2026 by Clark Snider</h5>
                 <h5>Contact: clark.snider@ontariotechu.net</h5>
             </div>
         </div>

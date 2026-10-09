@@ -85,3 +85,8 @@ div.relative {
     float:left;
     background: linear-gradient(to right, #EE35A0 0%, #ED5534 100%);
 }
+
+.contactForm{
+    width: 300px;
+    margin: 50px auto 0 auto;
+}
