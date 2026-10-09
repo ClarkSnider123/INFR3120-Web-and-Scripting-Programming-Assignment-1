@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Body with an angled gradiant adn overflow auto to allow scrolling if web page is longer*/
 body{
-    background: linear-gradient(-45deg, white 0%, black 100%);
+    background: linear-gradient(-45deg,  #FFF8B0 0%, #287A74 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     padding: 0px;
     margin: 0px;
@@ -20,14 +20,14 @@ h1,h2,h3,h4,h5,h6,p,li{
     height: auto;
     min-height: 750px;
     margin: auto;
-    background-color: red;
+    background-color: #55A9A0;
     position: relative;
 }
 
 /*banner*/
 #banner {
     transform: translate(480px,300);
-    color: red;
+    color: #AEEED3;
     right: 100px;
 }
 
@@ -35,9 +35,9 @@ h1,h2,h3,h4,h5,h6,p,li{
 #footer{
     height:100px;
     width: 100%;
-    bottom: 0;
+    bottom: -100px;
     color: white;
-    background-color: grey;
+    background-color: #AEEED3;
     position: absolute;
 }
 
@@ -93,7 +93,7 @@ div.relative {
     width:50%;
     height:264px;
     float:right;
-    background: linear-gradient(to left, white 0%, black 100%);
+    background: linear-gradient(to left, #287A74 0%, #FFF8B0 100%);
 
 }
 
@@ -102,7 +102,7 @@ div.relative {
     width: 50%;
     height: 264px;
     float:left;
-    background: linear-gradient(to right, white 0%, black 100%);
+    background: linear-gradient(to right, #287A74 50%, #FFF8B0 100%);
 }
 
 /*contactForm class*/

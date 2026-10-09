@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Body with an angled gradiant adn overflow auto to allow scrolling if web page is longer*/
 body{
-    background: linear-gradient(-45deg, #EE35A0 0%, #ED5534 100%);
+    background: linear-gradient(-45deg, #FFF8B0 0%, #287A74 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     padding: 0px;
     margin: 0px;
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     min-height: 700px;
     height: auto;
     margin: 0 auto;
-    background-color: #DB34ED;
+    background-color: #55A9A0;
     position: relative;
     padding-bottom: 100px;
 }
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p,li{
 /*banner*/
 #banner {
     transform: translate(480px,300);
-    color:#ED3534;
+    color:#AEEED3;
     right: 100px;
 }
 
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     width: 100%;
     bottom: 0;
     color: white;
-    background-color: #EE35A0;
+    background-color: #AEEED3;
     position:absolute;
 }
 
@@ -60,7 +60,6 @@ h1,h2,h3,h4,h5,h6,p,li{
 }
 
 /*button class*/
-/*find where you got this code*/
 .button{
     justify-content: center;
     border: none;
@@ -83,7 +82,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     width:50%;
     height:264px;
     float:right;
-    background: linear-gradient(to left, #EE35A0 0%, #ED5534 100%);
+    background: linear-gradient(to left, #287A74 0%, #FFF8B0 100%);
 
 }
 
@@ -92,7 +91,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     width: 50%;
     height: 264px;
     float:left;
-    background: linear-gradient(to right, #EE35A0 0%, #ED5534 100%);
+    background: linear-gradient(to right, #287A74 50%, #FFF8B0 100%);
 }
 
 /*contactForm class*/

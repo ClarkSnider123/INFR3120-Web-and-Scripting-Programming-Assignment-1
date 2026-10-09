@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*Body with an angled gradiant adn overflow auto to allow scrolling if web page is longer*/
 body{
-    background: linear-gradient(-45deg,  0%, black 100%);
+    background: linear-gradient(-45deg, #FFF8B0 0%, #287A74 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     padding: 0px;
     margin: 0px;
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     height: auto;
     min-height: 800px;
     margin: auto;
-    background-color: blue;
+    background-color: #55A9A0;
     position: relative;
     overflow: auto;
 }
@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6,p,li{
 /*banner*/
 #banner {
     transform: translate(480px,300);
-    color: blue;
+    color: #AEEED3;
     right: 100px;
 }
 
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     width: 100%;
     bottom: 0;
     color: white;
-    background-color: grey;
+    background-color: #AEEED3;
     position: relative;
 }
 
