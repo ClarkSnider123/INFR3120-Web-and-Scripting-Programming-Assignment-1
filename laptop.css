@@ -4,12 +4,13 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     padding: 0px;
     margin: 0px;
+    overflow: auto;
 }
 
 h1,h2,h3,h4,h5,h6,p,li{
     color: white;
 }
-/*linear-gradient(to bottom, red 0%, yellow 100%);*/
+
 #wrapper
 {
     width: 960px;
@@ -27,11 +28,11 @@ h1,h2,h3,h4,h5,h6,p,li{
 
 #footer{
     height:100px;
-    width: 960px;
-    position: absolute;
+    width: 100%;
     bottom: 0;
     color: white;
     background-color: #EE35A0;
+    position: absolute;
 }
 
 #footer  h5{
