@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Body with an angled gradiant adn overflow auto to allow scrolling if web page is longer*/
 body{
     background: linear-gradient(-45deg, #EE35A0 0%, #ED5534 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -11,65 +12,73 @@ h1,h2,h3,h4,h5,h6,p,li{
     color: white;
 }
 
+/* wrapper set a minimum height, actual height is auto so it can fit any size, padding at bottom to make the footer look better*/
 #wrapper
 {
     width: 960px;
-    height: 750px;
+    min-height: 700px;
+    height: auto;
     margin: 0 auto;
     background-color: #DB34ED;
     position: relative;
+    padding-bottom: 100px;
 }
 
+/*banner*/
 #banner {
     transform: translate(480px,300);
     color:#ED3534;
     right: 100px;
 }
 
+
+/*Footer position is absolute so it is always at the bottom of the screen*/
 #footer{
-    height:100px;
+    min-height:100px;
     width: 100%;
     bottom: 0;
     color: white;
     background-color: #EE35A0;
-    position: absolute;
+    position:absolute;
 }
 
+/*Changes the footer color text*/
 #footer  h5{
     color: white;
 }
 
+/*makes photo an object*/
 .photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/*clear*/
 .clear{
     clear: both;
 }
 
-div.relative {
-  position: relative;
-  left: 30px;
-  border: 3px solid #9E34ED;
+/*button class*/
+/*find where you got this code*/
+.button{
+    justify-content: center;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
- .button
- {
-  justify-content: center;
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
- }
+/*Makes button id text centered*/
 #button {
     text-align: center;
 }
+
+/*creates a right section, use linear gradiant*/
 #right{
     width:50%;
     height:264px;
@@ -77,6 +86,8 @@ div.relative {
     background: linear-gradient(to left, #EE35A0 0%, #ED5534 100%);
 
 }
+
+/*creates a left section, use linear gradiant*/
 #left{
     width: 50%;
     height: 264px;
@@ -84,10 +95,13 @@ div.relative {
     background: linear-gradient(to right, #EE35A0 0%, #ED5534 100%);
 }
 
+/*contactForm class*/
 .contactForm{
     width: 300px;
     margin: 50px auto 0 auto;
 }
+
+/*Video*/
 #video{
     display: block;
     margin-left: auto;

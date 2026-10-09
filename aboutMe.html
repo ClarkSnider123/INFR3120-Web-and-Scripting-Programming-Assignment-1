@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width">
+        <!--Webpage title-->
             <title>About Me - Clark Snider's website</title>
+            <!--Link to the style sheets-->
             <link href="laptop.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
             <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
             <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
@@ -11,9 +13,11 @@
     <body>
         <div id = "wrapper">
             <div id = "banner">
+                <!--Page title-->
                 <h1 style="text-align: center;">About Me</h1>
             </div>
             <nav>
+                <!--Navigation-->
                 <div id = "button">
                     <a href = "index.html"><button class="button button1">Home Page</button></a>
                     <a href = "aboutMe.html"><button class="button button2">About Me</button></a>
@@ -21,10 +25,14 @@
                     <a href = "project.html"><button class="button button4">Projects</button></a>              
                 </div>
             </nav>
+            <!--sectioning off the so the photo goes on the left-->
             <div id = "left">
+                <!--Photo-->
                 <img src="clark.jpg" class="photo" style="width:220px;height:264px;">
             </div>
+            <!--Sectioning off so the paragraph goes on the right-->
             <div id = "right">
+                <!--About me paragraph-->
                 <p>Hi my name is Clark Snider. 
                 I am a second year Networking and IT student at Ontario Tech. 
                 I like playing video games, music and skating. 
@@ -37,16 +45,18 @@
                 I have a interest in modding and jailbreaking old devices.
             </p>
             </div>
+            <!--About me video-->
             <video id="video" controls width="320" height="240" preload="auto">
                 <source src="video.mp4" type="video/mp4">
             </video>
+            <!--button to play/pause the video-->
             <div id = "button">
-                <button  onclick="playpause()">Play or pause the video</button><br>
+                <button class="button" onclick="playpause()">Play or pause the video</button><br>
             </div>
             <div class="clear"></div>
-            <div class="clear"></div>
+            <!--footer-->
             <div id="footer">
-                <h5>Copyright 2026 by Clark Snider</h5>
+                <h5>&copy 2026 by Clark Snider</h5>
                 <h5>Contact: clark.snider@ontariotechu.net</h5>
             </div>
         </div>
