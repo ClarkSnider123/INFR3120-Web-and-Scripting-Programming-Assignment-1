@@ -1,18 +1,11 @@
 @charset "UTF-8";
 body{
     background: linear-gradient(-45deg, #EE35A0 0%, #ED5534 100%);
-    background: linear-gradient(-45deg, #EE35A0 0%, #ED5534 100%);
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    padding: 0px;
-    margin: 0px;
     padding: 0px;
     margin: 0px;
 }
 
-h1,h2,h3,h4,h5,h6,p,li{
-    color: white;
-}
-/*linear-gradient(to bottom, red 0%, yellow 100%);*/
 h1,h2,h3,h4,h5,h6,p,li{
     color: white;
 }
@@ -20,61 +13,6 @@ h1,h2,h3,h4,h5,h6,p,li{
 #wrapper
 {
     width: 960px;
-    height: 750px;
-    margin: 0 auto;
-    background-color: #DB34ED;
-    position: relative;
-}
-
-#banner {
-    transform: translate(480px,300);
-    color:#ED3534;
-    right: 100px;
-}
-
-#footer{
-    height:100px;
-    width: 960px;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background-color: #EE35A0;
-}
-
-#footer  h5{
-    color: white;
-}
-
-.photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.clear{
-    clear: both;
-}
-
-div.relative {
-  position: relative;
-  left: 30px;
-  border: 3px solid #9E34ED;
-}
-
- .button
- {
-  justify-content: center;
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
- }
-#button {
-    text-align: center;
     height: 750px;
     margin: 0 auto;
     background-color: #DB34ED;
@@ -153,22 +91,4 @@ div.relative {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-#right{
-    width:50%;
-    height:264px;
-    float:right;
-    background: linear-gradient(to left, #EE35A0 0%, #ED5534 100%);
-
-}
-#left{
-    width: 50%;
-    height: 264px;
-    float:left;
-    background: linear-gradient(to right, #EE35A0 0%, #ED5534 100%);
-}
-
-.contactForm{
-    width: 300px;
-    margin: 50px auto 0 auto;
 }
