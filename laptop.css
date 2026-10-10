@@ -26,9 +26,9 @@ h1,h2,h3,h4,h5,h6,p,li{
 
 /*banner*/
 #banner {
-    transform: translate(480px,300px);
+    text-align: center;
     color:#AEEED3;
-    right: 100px;
+    
 }
 
 
