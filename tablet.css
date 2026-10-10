@@ -9,7 +9,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6,p,li{
-    color: white;
+    color: black;
 }
 
 /* wrapper set a minimum height, actual height is auto so it can fit any size, padding at bottom to make the footer look better*/
@@ -35,14 +35,9 @@ h1,h2,h3,h4,h5,h6,p,li{
     height:100px;
     width: 100%;
     bottom: -100px;
-    color: white;
+    color: black;
     background-color: #AEEED3;
     position: absolute;
-}
-
-/*Changes the footer color text*/
-#footer  h5{
-    color: white;
 }
 
 /*makes photo an object*/
