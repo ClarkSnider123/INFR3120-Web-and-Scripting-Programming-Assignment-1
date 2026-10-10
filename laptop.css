@@ -59,6 +59,10 @@ h1,h2,h3,h4,h5,h6,p,li{
     clear: both;
 }
 
+nav {
+    text-align: center;
+}
+
 /*button class*/
 .button{
     justify-content: center;
@@ -70,6 +74,8 @@ h1,h2,h3,h4,h5,h6,p,li{
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    width: fit-content;
+    margin: 4px auto;
 }
 
 /*Makes button id text centered*/
