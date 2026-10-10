@@ -62,7 +62,6 @@ div.relative {
 
 /*button class*/
 .button{
-    justify-content: center;
     border: none;
     color: black;
     padding: 16px 32px;

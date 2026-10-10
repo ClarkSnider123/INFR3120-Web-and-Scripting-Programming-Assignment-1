@@ -18,6 +18,7 @@ h1,h2,h3,h4,h5,h6,p,li{
     width: 960px;
     min-height: 700px;
     height: auto;
+    /*sets margin to 0 then splits it evenly*/
     margin: 0 auto;
     background-color: #55A9A0;
     position: relative;
@@ -60,7 +61,6 @@ nav {
 
 /*button class*/
 .button{
-    justify-content: center;
     border: none;
     color: black;
     padding: 16px 32px;
