@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,p,li{
 
 /*banner*/
 #banner {
-    transform: translate(480px,300);
+    transform: translate(480px,300px);
     color:#AEEED3;
     right: 100px;
 }
